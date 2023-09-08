@@ -11,6 +11,15 @@ export class App extends Component {
     filter: "",
   };
 
+  componentDidMount() {
+    
+  }
+
+  componentDidUpdate(PrevProps, prevState){
+    console.log(prevState);
+    console.log(this.state);
+  }
+
 addContact = newContact =>{
   const { name, number } = newContact;
 
