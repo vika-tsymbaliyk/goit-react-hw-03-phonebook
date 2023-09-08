@@ -16,8 +16,8 @@ export class App extends Component {
   }
 
   componentDidUpdate(PrevProps, prevState){
-    console.log(prevState);
-    console.log(this.state);
+    // console.log(prevState);
+    // console.log(this.state);
   }
 
 addContact = newContact =>{
